@@ -1,0 +1,209 @@
+body{
+  background-image: url(imagenes/1.jpg);
+  background-size: cover;
+  
+}
+header{
+  width: 100%;
+  height:80px;
+  
+}
+header img{
+  margin:15px 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding:10px 20px;
+  border-radius:10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  transition:600ms;
+  
+
+}
+header img:hover{
+  box-shadow:0 5px 10px 2px rgba(10, 137, 255,0.5);
+  transition:600ms;
+}
+main{
+ 
+  width: 100%;
+  height:100%;
+  display:flex;
+
+
+  
+  
+}
+.container-right{
+  
+  width:65%;
+  
+}
+.textarea-container{
+
+  width:80%;
+  height:60%;
+  margin:50px auto;
+  
+}
+.textarea-right{
+width: 75%;
+height:100%;
+font-size: 25px;
+background-color: rgba(255, 255, 255, 0.2);
+border: 1px solid rgba(255, 255, 255, 0.3);
+backdrop-filter: blur(20px);
+border-radius:15px;
+box-shadow:0 5px 10px 3px rgba(0, 0, 0, 0.5);
+
+}
+.textarea-right:hover{
+  box-shadow:0 5px 10px 2px rgba(10, 137, 255,0.5);
+  transition:600ms;
+}
+.container-right ::placeholder{
+  padding:30px;
+  color:rgba(255, 255, 255, 0.912);
+  font-size:30px;
+  font-weight:bold;
+}
+.conditions{
+  color:rgba(255, 255, 255, 0.912);
+  font-size:20px;
+  font-weight:bold;
+  margin: -10px 0px 10px 120px;
+  text-decoration: underline;
+}
+.button-container-right{
+  justify-content:space-around ;
+  align-items: center;
+  display: flex;
+  width:80%;
+  height:100px;
+  
+  
+  
+}
+
+.button{
+width: 300px;
+height: 67px;
+border-radius:15px;
+  
+}
+.button-encriptar{
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
+  color:rgba(255, 255, 255, 0.912);
+  font-size:30px;
+  font-weight:bold;
+  transition:600ms;
+  cursor:pointer;
+  box-shadow:0 5px 10px 3px rgba(0, 0, 0, 0.5);
+  
+}
+.button-encriptar:hover{
+  background: rgba(0, 132, 255,0.8);
+  font-size: 32px;
+  transition:600ms;
+  box-shadow:0 5px 10px 2px rgba(10, 137, 255,0.5);
+
+}
+.button-desencriptar{
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
+  color:rgba(255, 255, 255, 0.912);
+  font-size:30px;
+  font-weight:bold;
+  transition:600ms;
+  cursor:pointer;
+  box-shadow:0 5px 10px 3px rgba(0, 0, 0, 0.5);
+}
+.button-desencriptar:hover{
+  background: rgba(0, 132, 255,0.8);
+  font-size: 32px;
+  transition:600ms;
+  box-shadow:0 5px 10px 2px rgba(10, 137, 255,0.5);
+  
+}
+/* parte izquierda del encriptador */
+.container-left{
+  width:35%;
+  position: relative;
+  margin: 0 auto;
+  
+  
+}
+.textarea-container-left{
+  width:55%;
+  height:600px;
+  background-image: url(imagenes/Muñeco.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  margin:0 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
+  border-radius:15px;
+  box-shadow:0 5px 10px 2px rgba(0,0,0,1);
+  transition:600ms;
+
+}
+.textarea-container-left:hover{
+  box-shadow:0 5px 10px 2px rgba(10, 137, 255,0.7);
+  transition:600ms;
+}
+.descripcion-area{
+position:absolute;
+color: white;
+text-align: center;
+top: 500px;
+font-size: 25px;
+margin-left: 50px;
+}
+.text-alert{
+  color:rgba(255, 255, 255, 0.912);
+  font-size:25px;
+  font-weight:bold;
+}
+.text-info{
+  color:rgba(255, 255, 255, 0.912);
+  font-size:20px;
+  font-weight:bold;
+  margin: 10px 0px;
+}
+footer{
+  width: 100%;
+  height: 250px;
+  border: 2px solid red;
+  text-align: center;
+}
+.container-footer{
+  height: 200px;
+  width: 300px;
+  border-radius:50px;
+  align-items: center;
+  margin:0 auto;
+  
+}
+.img-footer{
+  height: 50px;
+  width: 50px;
+  margin-top: 100px;
+  border-radius: 50%;
+  box-shadow:0 5px 10px 2px rgba(0,0,0,1);
+  transition:600ms;
+}
+
+.img-footer:hover{
+  box-shadow:0 5px 10px 2px rgba(10, 137, 255,0.7);
+  transition:600ms;
+}
+.copyright{
+  margin-top:400px;
+  color: #ffffff;
+  font-size: 20px;
+  margin-top :10px;
+  font-weight: 600;
+}
