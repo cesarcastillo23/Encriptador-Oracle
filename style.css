@@ -310,7 +310,7 @@ main{
   .container-right{
     width:100%;
     height:580px;
-    border:1px solid red
+  
   }
   .textarea-container{
     width:100%;
@@ -359,7 +359,7 @@ main{
     display: flex;
     flex-direction: column;  
     margin-left:15%;
-    border: 1px solid red;
+   
   
   }
   .text-alert,.text-info{
