@@ -1,12 +1,10 @@
 body{
   background-image: url(imagenes/1.jpg);
   background-size: cover;
-  
 }
 header{
   width: 100%;
-  height:80px;
-  
+  height:80px; 
 }
 header img{
   margin:15px 50px;
@@ -16,34 +14,24 @@ header img{
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(20px);
   transition:600ms;
-  
-
 }
 header img:hover{
   box-shadow:0 5px 10px 2px rgba(10, 137, 255,0.5);
   transition:600ms;
 }
 main{
- 
   width: 100%;
   height:100%;
   display:flex;
-
-
-  
-  
 }
 .container-right{
-  
   width:65%;
-  
 }
 .textarea-container{
 
   width:80%;
   height:60%;
   margin:50px auto;
-  
 }
 .textarea-right{
 width: 75%;
@@ -54,7 +42,6 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 backdrop-filter: blur(20px);
 border-radius:15px;
 box-shadow:0 5px 10px 3px rgba(0, 0, 0, 0.5);
-
 }
 .textarea-right:hover{
   box-shadow:0 5px 10px 2px rgba(10, 137, 255,0.5);
@@ -70,8 +57,9 @@ box-shadow:0 5px 10px 3px rgba(0, 0, 0, 0.5);
   color:rgba(255, 255, 255, 0.912);
   font-size:20px;
   font-weight:bold;
-  margin: -10px 0px 10px 120px;
   text-decoration: underline;
+  width:80%;
+  margin:0 auto;
 }
 .button-container-right{
   justify-content:space-around ;
@@ -85,7 +73,6 @@ box-shadow:0 5px 10px 3px rgba(0, 0, 0, 0.5);
 width: 300px;
 height: 67px;
 border-radius:15px;
-
 }
 .button-encriptar{
   background-color: rgba(255, 255, 255, 0.2);
@@ -97,7 +84,6 @@ border-radius:15px;
   transition:600ms;
   cursor:pointer;
   box-shadow:0 5px 10px 3px rgba(0, 0, 0, 0.5);
-  
 }
 .button-encriptar:hover{
   background: rgba(0, 132, 255,0.8);
@@ -122,15 +108,12 @@ border-radius:15px;
   font-size: 32px;
   transition:600ms;
   box-shadow:0 5px 10px 2px rgba(10, 137, 255,0.5);
-  
 }
 /* parte izquierda del encriptador */
 .container-left{
   width:35%;
   position: relative;
   margin: 0 auto;
-  
-  
 }
 .textarea-container-left{
   width:55%;
@@ -145,8 +128,6 @@ border-radius:15px;
   border-radius:15px;
   box-shadow:0 5px 10px 2px rgba(0,0,0,1);
   transition:600ms;
-  
-
 }
 .textarea-container-left:hover{
   box-shadow:0 5px 10px 2px rgba(10, 137, 255,0.7);
@@ -176,7 +157,6 @@ margin-left:5%;
 footer{
   width: 100%;
   height: 250px;
-  
   text-align: center;
 }
 .container-footer{
@@ -223,14 +203,15 @@ main{
   text-align: center;
 }
 .conditions{
-  margin:-10px 0px 10px 150px ;
+  width:80%;
+    margin: 0 auto;
+    text-align: center;
 }
 .button-container-right{
   width:80%;
   margin: 0px auto;
 }
 .container-left{
- 
   width: 60%;
   height:430px;
   display: flex;
@@ -258,7 +239,7 @@ main{
   }
   .container-right{
     width:100%;
-    height:640px;
+    height:660px;
   }
   
   .container-right ::placeholder{
@@ -266,26 +247,26 @@ main{
     font-weight: 100;
   }
   .conditions{
-    margin:-10px 0px 10px 70px ;
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
   }
   .button-desencriptar{
     margin-top:15px;
   }
   .button-container-right{
-    height:150px;
+    height:170px;
     flex-direction: column;
-    margin:20px
-    
+    margin:10px auto;
   }
   
   .container-left{
- 
     width: 80%;
     height:200px;
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
+    top:20px;  
     margin:20px;
-   
   }
   .descripcion-area{
     width:70%;
@@ -294,11 +275,9 @@ main{
     display: flex;
     flex-direction: column;  
     right:25px;
-    
   }
   .img-footer{
   margin-top:70px;
- 
   }
 
 }
@@ -309,15 +288,15 @@ main{
   }
   .container-right{
     width:100%;
-    height:580px;
-  
+    height:500px;
   }
   .textarea-container{
     width:100%;
-    height:40%;
+    height:55%;
+    margin:10px auto;
   }
   .textarea-right{
-    height:250px;
+    height:235px;
     margin: 20px;
   }
   .container-right ::placeholder{
@@ -325,14 +304,13 @@ main{
     font-weight: 100;
   }
   .conditions{
-    margin:0px 0px 10px 20px ;
+    width: 80%;
+    margin: auto;
   }
 
   .button-container-right{
     height:150px;
     flex-direction: column;
-    margin:20px
-    
   }
   .button{
     width: 200px;
@@ -340,17 +318,14 @@ main{
     font-size: 20px;
   }
   .container-left{
- 
     width: 80%;
-    height:270px;
+    height:250px;
     display: flex;
     flex-direction: column;  
     margin:0 auto;
-   
   }
   .textarea-container-left{
     margin:0 auto;
-    
   }
   .descripcion-area{
     width:70%;
@@ -359,14 +334,8 @@ main{
     display: flex;
     flex-direction: column;  
     margin-left:15%;
-   
-  
   }
   .text-alert,.text-info{
     font-size:18px;
-   
-    
-  
-  
   }
 }
