@@ -42,6 +42,8 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 backdrop-filter: blur(20px);
 border-radius:15px;
 box-shadow:0 5px 10px 3px rgba(0, 0, 0, 0.5);
+font-size:30px;
+  color:aliceblue;
 }
 .textarea-right:hover{
   box-shadow:0 5px 10px 2px rgba(10, 137, 255,0.5);
@@ -73,7 +75,9 @@ box-shadow:0 5px 10px 3px rgba(0, 0, 0, 0.5);
 width: 300px;
 height: 67px;
 border-radius:15px;
+
 }
+
 .button-encriptar{
   background-color: rgba(255, 255, 255, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -109,6 +113,21 @@ border-radius:15px;
   transition:600ms;
   box-shadow:0 5px 10px 2px rgba(10, 137, 255,0.5);
 }
+.button-copiar{
+  display:none;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
+  color:rgba(255, 255, 255, 0.912);
+  font-size:25px;
+  font-weight: bold;
+}
+.button-copiar:hover{
+  background: rgba(0, 132, 255,0.8);
+  font-size: 32px;
+  transition:600ms;
+  box-shadow:0 5px 10px 2px rgba(10, 137, 255,0.5);
+}
 /* parte izquierda del encriptador */
 .container-left{
   width:35%;
@@ -128,12 +147,16 @@ border-radius:15px;
   border-radius:15px;
   box-shadow:0 5px 10px 2px rgba(0,0,0,1);
   transition:600ms;
+  font-size:30px;
+  color:aliceblue;
 }
 .textarea-container-left:hover{
   box-shadow:0 5px 10px 2px rgba(10, 137, 255,0.7);
   transition:600ms;
+ 
 }
 .descripcion-area{
+
 position:absolute;
 color: white;
 text-align: center;
@@ -259,7 +282,11 @@ main{
     flex-direction: column;
     margin:10px auto;
   }
-  
+  .button-copiar{
+      margin-top: 65px;
+      margin-left: 20px;
+      width: 180px;
+  }
   .container-left{
     width: 80%;
     height:200px;
@@ -316,6 +343,10 @@ main{
     width: 200px;
     height:50px;
     font-size: 20px;
+  }
+  .button-copiar{
+    margin-top:150px;
+    width: 180px;
   }
   .container-left{
     width: 80%;

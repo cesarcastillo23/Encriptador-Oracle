@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="reset.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&display=swap" rel="stylesheet">
-  <script src="script.js"></script>
   <title>Encriptador</title>
 </head>
 <body>
@@ -17,22 +16,28 @@
  <main>
     <section class="container-right">
       <div class="textarea-container">
-        <textarea id="encriptador" cols="auto" rows="auto" placeholder="Ingrese el texto aqui" class="textarea-right"></textarea>
+        <textarea id="encriptador" cols="auto" rows="auto" placeholder="Ingrese el texto aqui" class="textarea-right "></textarea>
       </div>
       <p  class="conditions">	&#9888; Solo letras minusculas y sin asentos</p>
 
       <div class="button-container-right">
         
-        <button class="button button-encriptar">Encriptar</button>
-        <button class="button button-desencriptar">Desencriptar</button>
+        <button class="button button-encriptar" onclick="btnEncriptar()">Encriptar</button>
+        <button class="button button-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
       </div>
     </section>
     <section class="container-left">
             <textarea  cols="20" rows="4" class="textarea-container-left"></textarea>
           <div class="descripcion-area"  >
+            <div class="INFO">
             <p class="text-alert">Ningún mensaje fue encontrado</p>
             <p class="text-info">Ingresar el texto que desees <br> encriptar o desencriptar</p>
-        </div>  
+            </div>
+            <div class="botoncopiar">
+              <button class="button button-copiar" onclick="copiar();">Copiar</button>
+
+            </div>
+          </div>  
     </section>
     
  </main> 
@@ -45,4 +50,5 @@
     
 </footer>
 </body>
+<script src="script.js"></script>
 </html>
