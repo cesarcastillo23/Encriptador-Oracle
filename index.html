@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,46 +10,49 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&display=swap" rel="stylesheet">
   <title>Encriptador</title>
 </head>
+
 <body>
   <header>
     <img src="imagenes/Vector.png" alt="Logo encriptador">
   </header>
- <main>
+  <main>
     <section class="container-right">
       <div class="textarea-container">
-        <textarea id="encriptador" cols="auto" rows="auto" placeholder="Ingrese el texto aqui" class="textarea-right "></textarea>
+        <textarea id="encriptador" cols="auto" rows="auto" placeholder="Ingrese el texto aqui"
+          class="textarea-right "></textarea>
       </div>
-      <p  class="conditions">	&#9888; Solo letras minusculas y sin asentos</p>
+      <p class="conditions"> &#9888; Solo letras minusculas y sin asentos</p>
 
       <div class="button-container-right">
-        
+
         <button class="button button-encriptar" onclick="btnEncriptar()">Encriptar</button>
         <button class="button button-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
       </div>
     </section>
     <section class="container-left">
-            <textarea  cols="20" rows="4" class="textarea-container-left"></textarea>
-          <div class="descripcion-area"  >
-            <div class="INFO">
-            <p class="text-alert">Ningún mensaje fue encontrado</p>
-            <p class="text-info">Ingresar el texto que desees <br> encriptar o desencriptar</p>
-            </div>
-            <div class="botoncopiar">
-              <button class="button button-copiar" onclick="copiar();">Copiar</button>
 
-            </div>
-          </div>  
+      <textarea cols="20" rows="4" class="textarea-container-left"></textarea>
+      <div class="descripcion-area">
+        <div class="info">
+          <p class="text-alert">Ningún mensaje fue encontrado</p>
+          <p class="text-info">Ingresar el texto que desees <br> encriptar o desencriptar</p>
+        </div>
+        <button class=" button-copiar" onclick="copiar()">Copiar</button>
+        
+      </div>
     </section>
-    
- </main> 
- <footer>
+
+  </main>
+  <footer>
     <section class="container-footer">
       <a href="https://github.com/cesarcastillo23"><img src="imagenes/log2.png" alt="Github" class="img-footer"></a>
-      <a href="https://www.linkedin.com/in/cesar-castillo-951612236/"><img src="imagenes/ln2.png" alt="LinkedIn" class="img-footer"></a>
+      <a href="https://www.linkedin.com/in/cesar-castillo-951612236/"><img src="imagenes/ln2.png" alt="LinkedIn"
+          class="img-footer"></a>
       <p class="copyright"> &copy Copyright Desarollado por: <br> Cesar Castillo 2022</p>
     </section>
-    
-</footer>
+
+  </footer>
 </body>
 <script src="script.js"></script>
+
 </html>

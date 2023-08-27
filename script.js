@@ -19,7 +19,7 @@ function btnEncriptar(){
   mensaje.value = textoEncriptado;
   mensaje.style.backgroundImage="none";
   inputTexto.value="";
-  const diveliminar = document.getElementsByClassName("INFO")[0]
+  const diveliminar = document.getElementsByClassName("info")[0]
   diveliminar.style.display="none";
   // diveliminar.style.fontsize="20px";
   document.getElementsByClassName("button-copiar")[0].style.display="block";
